@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header basic render snapshoot 1`] = `
+<div>
+  <div>
+    header
+  </div>
+  <h2>
+    1111
+  </h2>
+  <button
+    className="Headerstyles__Button-crkdu1-0 liizHN"
+  >
+    111111122222
+  </button>
+</div>
+`;
