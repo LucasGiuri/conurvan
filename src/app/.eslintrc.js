@@ -1,11 +1,16 @@
 module.exports = {
     "env": {
         "browser": true,
+        "jest": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+    ],
     "globals": {
         "Atomics": "readonly",
+        "React": "writable",
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
@@ -19,5 +24,6 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "react/react-in-jsx-scope": "off"
     }
 };

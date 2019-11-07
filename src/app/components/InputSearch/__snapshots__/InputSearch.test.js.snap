@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputSearch Match to snapshot when close button is hidden 1`] = `
+<div
+  className="input-search"
+>
+  <search-button.svg
+    className="input-search__icon"
+  />
+  <input
+    className="input-search__input"
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputSearch Match to snapshot when close button is show 1`] = `
+<div
+  className="input-search"
+>
+  <search-button.svg
+    className="input-search__icon"
+  />
+  <input
+    className="input-search__input"
+    type="text"
+  />
+  <close_black.svg
+    className="input-search__icon"
+  />
+</div>
+`;
+
+exports[`InputSearch Match to snapshot when is focused 1`] = `
+<div
+  className="input-search"
+>
+  <search-button.svg
+    className="input-search__icon"
+  />
+  <input
+    autoFocus={true}
+    className="input-search__input"
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputSearch Match to snapshot when it has no params 1`] = `
+<div
+  className="input-search"
+>
+  <search-button.svg
+    className="input-search__icon"
+  />
+  <input
+    className="input-search__input"
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputSearch Match to snapshot when we pass a placeholder param 1`] = `
+<div
+  className="input-search"
+>
+  <search-button.svg
+    className="input-search__icon"
+  />
+  <input
+    className="input-search__input"
+    placeholder="21 BUTTONS"
+    type="text"
+  />
+</div>
+`;
+
+exports[`InputSearch Match to snapshot when we pass a value param 1`] = `
+<div
+  className="input-search"
+>
+  <search-button.svg
+    className="input-search__icon"
+  />
+  <input
+    className="input-search__input"
+    type="text"
+    value="21 BUTTONS"
+  />
+</div>
+`;
